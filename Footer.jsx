@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function Footer() {
-  const test = 'test'
+
   const linkCss = {
     fontSize: '0.6rem',
     padding: '0.1em 0.4em',
