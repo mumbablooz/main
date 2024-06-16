@@ -1,6 +1,9 @@
 import React from 'react'
 
-export default function ShowVideo({video}) {
+type Props={
+  video: string
+}
+export default function ShowVideo({video}:Props) {
   return (
     <div style={{
         margin: '0.5rem'
