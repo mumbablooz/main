@@ -1,0 +1,10 @@
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    transform: 2s ease-in-out;
+    height: 4rem;
+}
+
+.buttonContainer div :hover {
+    width: 3.5rem;
+}

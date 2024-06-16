@@ -1,0 +1,21 @@
+.SuperButtonContainer{
+    background-color: var(--secoundColor);
+    margin: 1rem;
+    padding: 0.4rem;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+   
+    cursor: pointer;
+}
+.SuperButtonContainer:hover{
+    background-color: var(--sixthColor);
+}
+.SuperButtonContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SuperButtonContainer p{
+    font-size: medium;
+}
