@@ -2,7 +2,7 @@
 import React, { useEffect, useState, JSX } from 'react'
 import styles from './styles.module.css'
 import ShowIcon from '../ShowIcon/ShowIcon'
-
+// nur mal so zum testen
 export interface AkkordeonType {
     contentHtml: React.JSX.Element,
     isOpenBooleen: boolean,
