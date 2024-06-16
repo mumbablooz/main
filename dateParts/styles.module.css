@@ -1,0 +1,15 @@
+.EmailButton,
+.HomePageButton,
+.TelButton {
+    color: white;
+
+}
+
+.KontaktDatenContainer {
+    color: white;
+}
+
+.TelButton {
+
+    padding: 0 2em;
+}

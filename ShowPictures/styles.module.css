@@ -1,0 +1,7 @@
+.picturesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    z-index: 1000;
+}

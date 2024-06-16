@@ -1,0 +1,17 @@
+.formContainer{
+    border: 1px solid var(--secoundColor);
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.input,
+.textarea{
+    color: var(--firstColor);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+.submitButton{
+    padding: 0.5 1rem;
+    margin-right: 1rem;
+    width: 15rem;
+    color: #fff;
+}
