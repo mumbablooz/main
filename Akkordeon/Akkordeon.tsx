@@ -15,7 +15,8 @@ export default function Akkordeon({ contentHtml, isOpenBooleen, color }: Akkorde
     const [isOpen, setIsOpen] = useState(isOpenBooleen)
     const [content, setContent] = useState<React.JSX.Element | undefined>()
 
-
+const test = 'test'
+    
     const closedIcon = process.env.NEXT_PUBLIC_HOMEPAGE_CLOSEDICON ? process.env.NEXT_PUBLIC_HOMEPAGE_CLOSEDICON : 'closed'
     const openIcon = process.env.NEXT_PUBLIC_HOMEPAGE_OPENICON ? process.env.NEXT_PUBLIC_HOMEPAGE_OPENICON : 'open'
     useEffect(() => {
