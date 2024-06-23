@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import { PictureType } from '../ShowPictures/types'
+import { PictureType } from '../ShowPictures/types';
 
 type Probs = {
-  array: PictureType[],
+  array: PictureType[] | undefined,
   index: number,
   width: number,
   height: number,
