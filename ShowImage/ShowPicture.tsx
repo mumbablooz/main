@@ -1,7 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import { PictureType } from '../ShowPictures/types'
 
-export default function ShowPicture({ array, index,width, height, pictureLink }) {
+type Probs = {
+  array: PictureType[],
+  index: number,
+  width: number,
+  height: number,
+  pictureLink: string
+}
+export default function ShowPicture({ array, index,width, height, pictureLink }:Probs) {
 if(!array) return (<Image
   src={'/' + pictureLink}
   width={width}
@@ -14,8 +22,8 @@ if(!array) return (<Image
 
   return (<Image
     src={'/' + array[index].name}
-    width={array[index].width}
-    height={array[index].height}
+    width={parseInt(array[index].width)}
+    height={parseInt(array[index].height)}
     alt={array[index].describtion}
     style={{
       width: 'auto',
